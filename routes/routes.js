@@ -11,6 +11,6 @@ router.post('/add-device',[
 
 router.get('/get-device/:deviceId', DEVICE.getDevice)
 router.get('/update-device/:deviceId/:status', DEVICE.updateDevice)
-router.get('/delete-device:deviceId', DEVICE.deleteDevice)
+router.get('/delete-device/:deviceId', DEVICE.deleteDevice)
 
 module.exports = router;
